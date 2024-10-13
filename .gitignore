@@ -6,6 +6,17 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore logs and backup directories
+logs/
+backups/
+
+# Ignore sensitive config files
+config/encryption_key.key
+
+# Python bytecode files
+__pycache__/
+*.pyc
+
 # Distribution / packaging
 .Python
 build/

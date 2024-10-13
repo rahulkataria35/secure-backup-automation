@@ -1,0 +1,3 @@
+boto3==1.18.55
+cryptography==3.4.7
+PyYAML==5.4.1  # For reading YAML config files
